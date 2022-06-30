@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&display=swap");
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(100, 76, 122);
+  text-align: left;
+  margin: 8px 0px 12px;
+}
+
+label,
+input {
+  display: block;
+  width: 95%;
+  margin-bottom: 5px;
+  color: rgb(187, 148, 223);
+}
+
+small {
+  display: block;
+  visibility: hidden;
+  color: rgb(76, 58, 93);
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+button {
+  background-color: rgb(187, 148, 223);
+  padding: 7px;
+  border-radius: 9px;
+  margin-top: 10px;
+  color: #fff;
+  border: 1px solid rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  margin: 150px auto;
+  border: 1px solid rgb(235, 154, 154);
+  border-radius: 4px;
+  box-shadow: 6px 3px 3px rgba(196, 109, 109, 0.4);
+  width: 20%;
+  padding: 25px 25px;
+}
+
+input:focus {
+  outline-color: rgb(216, 192, 192);
+}
+
+input::placeholder {
+  font-family: "Barlow", sans-serif;
+}
+
+button:hover {
+  background-color: rgb(216, 192, 192);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 75%;
+  }
+}
